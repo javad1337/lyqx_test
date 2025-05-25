@@ -4,8 +4,6 @@ import 'package:lyqx_test/features/cart/domain/cart_repository.dart';
 
 part 'cart_state.dart';
 
-
-
 class CartCubit extends Cubit<CartState> {
   final CartRepository _repo;
   CartCubit(this._repo) : super(const CartState(items: {}));

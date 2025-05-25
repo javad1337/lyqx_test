@@ -25,7 +25,7 @@ class App extends StatelessWidget {
     final router = GetIt.I<GoRouter>();
 
     return MaterialApp.router(
-      title: 'Your App',
+      title: 'LYQX Test',
       debugShowCheckedModeBanner: false,
 
       routerConfig: router,
